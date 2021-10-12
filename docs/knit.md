@@ -110,11 +110,11 @@ end
 
 #### Util
 
-Knit comes with a lot of neat libraries at your disposal. 
+Knit comes with a lot of neat libraries at your disposal. You can refer to the [Knit util documentation](https://sleitnick.github.io/Knit/util/component/) to see what there is to take advantage of!
 
-##### Maid
+##### Janitor
 
-[Maid](https://medium.com/roblox-development/how-to-use-a-maid-class-on-roblox-to-manage-state-651bf74de98b) is a your most useful tool for tracking and disposing of potential memory leaks. It will disconnect events, destroy objects, you name it! Read up on it more [here](https://sleitnick.github.io/Knit/util/maid/). It is really easy to use and take advantage of so make sure to do so.
+[Janitor](https://github.com/howmanysmall/Janitor) is your most useful tool for tracking and disposing of potential memory leaks. It will disconnect events, destroy objects, you name it! Read up on it more [here](https://sleitnick.github.io/Knit/util/janitor/). It is really easy to use and take advantage of so make sure to do so.
 
 ##### Promises
 
