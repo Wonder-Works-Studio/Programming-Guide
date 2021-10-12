@@ -703,14 +703,14 @@ end
 local ReplicatedStorage = game:GetService(&quot;ReplicatedStorage&quot;)
 local Knit = require(ReplicatedStorage.Knit)
 
-local RemoteEvent = require(Knit.Util.Remote.RemoteEvent)
+local RemoteSignal = require(Knit.Util.Remote.RemoteSignal)
 
 local InteractionService = Knit.CreateService {
     Name = &quot;InteractionService&quot;;
     Client = {
-        Triggered = RemoteEvent.new(),
-        HoldBegan = RemoteEvent.new(),
-        HoldEnded = RemoteEvent.new()
+        Triggered = RemoteSignal.new(),
+        HoldBegan = RemoteSignal.new(),
+        HoldEnded = RemoteSignal.new()
     };
 }
 </code></pre>
