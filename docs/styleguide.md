@@ -195,14 +195,14 @@ local ProximityPromptService = game:GetService("ProximityPromptService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Knit = require(ReplicatedStorage.Knit)
 
-local RemoteEvent = require(Knit.Util.Remote.RemoteEvent)
+local RemoteSignal = require(Knit.Util.Remote.RemoteSignal)
 
 local InteractionService = Knit.CreateService {
     Name = "InteractionService";
     Client = {
-        Triggered = RemoteEvent.new(),
-        HoldBegan = RemoteEvent.new(),
-        HoldEnded = RemoteEvent.new()
+        Triggered = RemoteSignal.new(),
+        HoldBegan = RemoteSignal.new(),
+        HoldEnded = RemoteSignal.new()
     };
 }
 ```
