@@ -91,6 +91,8 @@ function MyClass:Destroy()
 
     self._destroyed = true
 end
+
+return MyClass
 ```
 
 Each class needs the `Destroy` method so that it can be cleaned up properly by Maids. Also in general the class should most likely have its own maid that is cleaned
